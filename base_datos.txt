@@ -1,0 +1,23 @@
+
+--Copiar y pegar en mysql
+--Crear base de datos
+create database certamen3;
+use certamen3;
+--Tabla
+CREATE TABLE Equipamientos(
+    NumEquip INT PRIMARY KEY,
+    codAcceso VARCHAR(200),
+    fechaFabr VARCHAR(15),
+    precioEq INT
+)ENGINE=InnoDB;
+
+
+
+
+--INSERT INTO Equipamientos VALUES(1,'t123','2024/12/06',5000)
+
+--DROP DATABASE certamen3;
+--SHOW DATABASES;
+--SELECT * FROM Equipamientos;
+
+--ALTER TABLE Equipamientos MODIFY COLUMN codAcceso VARCHAR(32);
